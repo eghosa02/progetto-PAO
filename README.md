@@ -29,12 +29,12 @@ git clone https://github.com/yourusername/sensor-dashboard.git
 
 3. Install qmake.
 
-4. run in terminal qmake --project.
+4. run in terminal `qmake --project`.
 
-5. go to the project file created and add Qt += widgets.
+5. go to the project file created and add "Qt += widgets".
 
-6. run in terminal qmake.
+6. run in terminal `qmake`.
 
-7. run in terminal make.
+7. run in terminal `make`.
 
 8. open the .exe file created and enjoy!
