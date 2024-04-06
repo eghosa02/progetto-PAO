@@ -1,4 +1,4 @@
-# Sensor Dashboard Project
+# OOP Project
 
 This repository contains the source code and documentation for a university project developed in C++. The project focuses on creating a dashboard application for monitoring sensors and their measurements.
 
@@ -16,8 +16,8 @@ The sensor dashboard project aims to provide a user-friendly interface for monit
 ## Technologies Used
 
 - **C++**: The core programming language used for development.
-- **GUI Framework**: [Insert GUI framework/library name here]
-- **Data Visualization**: [Insert data visualization library name here]
+- **GUI Framework**: Qt Creator.
+- **Data Visualization**: temperature, movemt and gas.
 
 ## Installation
 
@@ -27,40 +27,14 @@ To run the application locally, follow these steps:
 
 git clone https://github.com/yourusername/sensor-dashboard.git
 
-3. [Insert installation steps here if applicable]
+3. Install qmake.
 
-## Usage
+4. run in terminal qmake --project.
 
-1. [Insert usage instructions here]
+5. go to the project file created and add Qt += widgets.
 
-## Contributing
+6. run in terminal qmake.
 
-Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
+7. run in terminal make.
 
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/yourfeature`).
-3. Make your changes.
-4. Commit your changes (`git commit -am 'Add new feature'`).
-5. Push to the branch (`git push origin feature/yourfeature`).
-6. Create a new Pull Request.
-
-## License
-
-[Insert license information here]
-
-## Authors
-
-- [Author 1](https://github.com/author1)
-- [Author 2](https://github.com/author2)
-
-## Acknowledgements
-
-[Insert acknowledgements here, if any]
-
-## Support
-
-For any inquiries or issues, please contact [maintainer email here]. 
-
----
-Feel free to customize this markdown file according to your project's specifics and structure.
-
+8. open the .exe file created and enjoy!
